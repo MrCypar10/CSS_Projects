@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    padding: 0.1%;
+    height: 100vh;
+    background: radial-gradient(rgb(56, 189, 248), rgb(186, 230, 253));
+}
+.card{
+    height: 500px;
+    width: 250px;
+    border: 1px solid rgb(100, 99, 99);
+    margin-top: 5%;
+    margin-left: 10%;;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.card h3{
+    margin: 10px 0;
+}
+.para{
+    margin: 10px 0;
+}
+
+.card h2{
+
+    font-size: 40px;
+    margin: 20px 0 2px 0;
+}
+.card h2 span{
+    font-size: 12px;
+    color: grey;
+}
+.bill-para{
+    font-size: 14px;
+        color: grey;
+}
+
+.btn{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.btn button{
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.feature-list p{
+    margin: 10px 0;
+    font-style: bold;
+    font-size: 18px;
+}
+.feature-list ul{
+    list-style: none;
+
+}
+.feature-list li{
+        margin: 5px 0;
+        font-size: 14px;
+}
+
+.feature-list ul img{
+    height: 10px;
+    width: 10px;
+
+}
+

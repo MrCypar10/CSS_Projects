@@ -1,0 +1,63 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    
+}
+.main{
+padding: 0.01%;
+margin-top: 10%;
+margin-left: 10%;
+border-color: aliceblue;
+}
+
+.btn1{
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#b1{
+    border: 2px solid rgb(88, 15, 156);
+    background-color: blueviolet;
+    color: aliceblue;
+    outline: 0px;
+}
+#b2{
+    background-color: black;
+    color: aliceblue;
+}
+#b3{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+#b3:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+    border: 2px solid aliceblue;
+}
+
+#b4{
+    outline: 0;
+    border: 0px;
+    background-color: aliceblue;
+}
+
+#b5{
+    background-color: red;
+    color: aliceblue;
+    outline: 0px;
+    border: 0;
+}
+
+#b6{
+    cursor: not-allowed;
+    pointer-events: none;
+    border: 0px;
+    color: rgb(124, 123, 123);
+    background-color: rgb(163, 161, 161);
+}
