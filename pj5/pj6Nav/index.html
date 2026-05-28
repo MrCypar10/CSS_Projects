@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body,html{
+        height: 100%;
+        background-color: black;
+    }
+    body{
+        padding: 0.1%;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: black;
+        border-bottom: 1px Solid white;
+        height: 64px;
+    }
+    header h2{
+        font-size: 20px;
+        color:aliceblue
+    }
+
+    nav{
+        display: flex;
+        gap: 20px;
+    }
+    
+    
+    nav a{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+
+    }
+    .btns button{
+        border-radius: 20px;
+        padding: 8px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        }
+
+    #btn1{
+        background-color: indianred;
+        color: aliceblue;
+        margin-right: 5px;
+    
+       
+        
+    }
+    #btn2{
+        background-color: transparent;
+        color: indianred;
+        border: 1px solid indianred;
+    }
+
+
+</style>
+
+
+</head>
+<body>
+    <header>
+        <h2>myDev.</h2>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Work</a>
+                <a href="#">Experties</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <div class="btns">
+                <button id="btn1">Log In</button>
+                <button id="btn2">Sign Up</button>
+            </div>
+
+
+    </header>
+    
+</body>
+</html>
