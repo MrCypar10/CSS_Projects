@@ -21,12 +21,14 @@ header{
     align-items: center;
     padding: 0 20px;
     height: 64px;
-    border-bottom: 1px solid black; 
+    
+    background-color: black; 
 }
 
 header h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    color: rgb(4, 110, 75);
 }
 nav{
     display: flex;
@@ -35,7 +37,7 @@ nav{
 }
 
 nav a{
-    color: rgb(107, 176, 236);
+    color: rgb(6, 167, 113);
     text-decoration: none;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,6 +46,9 @@ nav a{
 
 .navi a:hover{
  text-decoration: underline;
+ text-shadow: 0px 0px 15px whitesmoke;
+ font-size: 1.1em;
+ transition: 0.2s;
  
 }
 
@@ -57,19 +62,71 @@ nav a{
 }
 
 #btn1{
-    background-color: rgb(7, 7, 7);
-    color: rgb(250, 246, 246);
+    background-color: rgb(25, 82, 72);
+    color: rgb(145, 236, 206);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 15px;
-    border: 2px solid rgb(107, 99, 99);
+    border: 2px solid rgb(37, 250, 186);
 }
 
 #btn2{
   background-color: transparent;
-    color: rgb(15, 15, 15);
+    color: rgb(46, 230, 168);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 15px;   
-    border: 2px solid black;
+    border: 2px solid rgb(40, 243, 125);
+}
+
+/*  from here starts Hero */
+#hero{
+   display: flex;
+    height: calc(100vh - 64px);
+    flex-direction: column;
+    padding: 50px 0 0 30px;
+    color: rgb(182, 214, 241);
+    background:linear-gradient(to top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+}
+
+#top{
+    background-color: rgb(25, 226, 159);
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: rgb(2, 51, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:fit-content;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1 span{
+    color: rgb(25, 226, 159);
+}
+
+section p{
+    max-width: 500px;
+    margin: 20px 0 30px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.hero-btns button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(25, 82, 72);
+    color: rgb(145, 236, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid rgb(37, 250, 186);
+   
 }
