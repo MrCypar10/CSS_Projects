@@ -23,10 +23,14 @@ body,html{
 #testimonials h2{
     font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, rgb(253, 186, 116), rgb(253, 164, 175));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
 }
 
 
-#testimonials p{
+#testimonials #para{
     max-width: 500px;
     text-transform: capitalize;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,6 +49,34 @@ body,html{
 
 .testimonials-wrapper .card{
     height: 200px;
-    width: 200px;
-    background-color: aquamarine;
+    width: 350px;
+    background: linear-gradient(rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px 30px;
+    color: aliceblue;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card #rating{
+color: goldenrod;
+}
+
+#rating i{
+    background-color: yellow;
+}
+
+.feedback{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.397);
+
 }
