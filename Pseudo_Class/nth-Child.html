@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+        body{
+            padding: 0.1%;
+        }
+
+        .btns-wrapper{
+            background-color: black;
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+            gap: 40px;
+        }
+
+        button{
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: blueviolet;
+            color: aliceblue;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+
+        }
+        
+       button:nth-child(2n){
+        background-color: rgb(4, 32, 23);
+       }
+    </style>
+</head>
+<body>
+    
+    <div class="btns-wrapper">
+    <button id="btn1">Button1</button>
+    <button id="btn2">Button2</button>
+    <button id="btn3">Button3</button>
+    <button id="btn4">Button4</button>
+    <button id="btn5">Button5</button>
+    <button id="btn6">Button6</button>
+    <button id="btn7">Button7</button>
+</div> 
+</body>
+</html>
