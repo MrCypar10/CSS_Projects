@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            height: 100%;
+        }
+
+        body{
+            padding: 0.1%;
+
+            background-color: black;
+            color: aliceblue;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 90px;
+        }
+
+        h1::selection{
+            color: burlywood;
+        }
+
+        h1::before{
+            content:'🦝' ;
+        }
+
+        h1::after{
+            content: '?';
+            color: blueviolet;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Hello!   How are you </h1>
+</body>
+</html>
