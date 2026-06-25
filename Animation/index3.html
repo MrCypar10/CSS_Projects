@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            background-color: rgb(63, 69, 43);
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: aquamarine;
+
+            animation-name: box-anime;
+            animation-duration: 5s;
+        }
+
+        @keyframes box-anime{
+            0% {
+                transform: translate(0,0);
+                background-color: aquamarine;
+            }
+            25%{
+                transform: translate(800px,0);
+                background-color: rgb(13, 71, 52);
+            }
+            50%{
+                transform: translate(800px,400px);
+                background-color: aquamarine;
+            }
+            75%{
+                transform: translate(0px,400px);
+                background-color: rgb(13, 71, 52);
+            }
+            100%{
+                transform: translate(0,0);
+                background-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
